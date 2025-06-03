@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TodoAppMind/static/css/main.6933df42.css",
+    "main.js": "/TodoAppMind/static/js/main.34f1bc30.js",
+    "index.html": "/TodoAppMind/index.html",
+    "main.6933df42.css.map": "/TodoAppMind/static/css/main.6933df42.css.map",
+    "main.34f1bc30.js.map": "/TodoAppMind/static/js/main.34f1bc30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6933df42.css",
+    "static/js/main.34f1bc30.js"
+  ]
+}

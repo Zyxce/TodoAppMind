@@ -15,9 +15,7 @@ const TodosActions: React.FC<TodosActionsProps> = ({
         {hasCompleted && remaining < 1 ? (
           <span>all tasks completed</span>
         ) : (
-          <span>
-            {remaining} {remaining > 1 ? 'tasks' : 'task'} left
-          </span>
+          <span>{`${remaining} ${remaining > 1 ? 'tasks' : 'task'} left`}</span>
         )}
       </>
     )}

@@ -8,9 +8,7 @@ import style from '../styles/components/App.module.css'
 import { Filter } from '../types'
 
 const App: React.FC = () => {
-  const [todos, setTodos] = useState<Todo[]>([
-    { id: '1', text: 'sobaka', isCompleted: false },
-  ])
+  const [todos, setTodos] = useState<Todo[]>([])
   const [filter, setFilter] = useState<Filter>('all')
 
   const addTodo = (text: string) => {
