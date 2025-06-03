@@ -1,0 +1,41 @@
+.appContainer
+  display: flex
+  flex-direction: column
+  background: var(--color-bg)
+  padding: var(--spacing-lg)
+  border-radius: var(--radius-container)
+  box-shadow: var(--shadow-card)
+  width: 400px
+  margin: auto
+  margin-top: 300px
+
+  .header
+    font-family: var(--font-header)
+    font-size: var(--font-size-header)
+    color: var(--color-text-primary)
+    text-align: left
+
+  .filters
+    display: flex
+    justify-content: center
+    width: flex-content
+    background-color: var(--color-surface-secondary)
+    border-radius: var(--radius-base)
+    width: fit-content
+    border: 1px solid var(--color-border-secondary)
+
+    .filterBtn
+      padding: var(--spacing-sm) var(--spacing-lg)
+      border-radius: var(--radius-base)
+      border: none
+      font-size: var(--font-size-base)
+      cursor: pointer
+      transition: var(--transition-base)
+
+    .active
+      background: var(--color-filter-active-bg)
+      color: var(--color-text-primary)
+
+    .inactive
+      background: var(--color-filter-inactive-bg)
+      color: var(--color-text-secondary)

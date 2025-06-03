@@ -1,0 +1,59 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--spacing-md);
+}
+.item .checkboxLabel {
+  display: flex;
+  align-items: center;
+}
+.item .checkboxLabel .checkbox {
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--color-checkbox);
+  border-radius: 4px;
+  position: relative;
+  margin-right: var(--spacing-sm);
+  cursor: pointer;
+  transition: background var(--transition-base), border-color var(--transition-base);
+}
+.item .checkboxLabel .checkbox:checked {
+  border-color: var(--color-checkbox);
+}
+.item .checkboxLabel .checkbox:checked::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 8px;
+  border: solid var(--color-checkbox);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.item .checkboxLabel .checkbox:focus {
+  outline: none;
+}
+.item .labelText {
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+  padding-left: var(--spacing-sm);
+}
+.item .deleteBtn {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: none;
+  white-space: nowrap;
+  font-size: var(--font-size-base);
+  border-radius: var(--radius-base);
+  background: var(--color-button-delete);
+  color: var(--color-text-button);
+  cursor: pointer;
+  transition: var(--transition-base);
+}
+.item .deleteBtn:hover {
+  background: var(--color-button-delete-hover);
+}/*# sourceMappingURL=TodoItem.module.css.map */

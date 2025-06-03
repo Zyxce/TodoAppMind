@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--color-app-bg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}/*# sourceMappingURL=index.css.map */

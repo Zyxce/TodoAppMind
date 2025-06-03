@@ -1,0 +1,18 @@
+.list {
+  background: var(--color-surface);
+  border-radius: var(--radius-base);
+  margin-top: var(--spacing-md);
+  max-height: 300px;
+  overflow-y: auto;
+}
+.list .itemContainer {
+  padding: var(--spacing-sm) 0;
+}
+.list .itemContainer .noTodos {
+  color: var(--color-text-primary);
+  font-size: var(--font-size-base);
+  padding: var(--spacing-xs) var(--spacing-md);
+}
+.list .itemContainer:not(:last-child) {
+  border-bottom: 1px solid var(--color-divider);
+}/*# sourceMappingURL=TodoList.module.css.map */

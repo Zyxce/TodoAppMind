@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  gap: var(--spacing-sm);
+  background: var(--color-input-bg);
+  padding: var(--spacing-md) var(--spacing-md) var(--spacing-md) 0;
+  border-radius: var(--radius-base);
+}
+.form .input {
+  padding: var(--spacing-mds) var(--spacing-md);
+  border: none;
+  border-radius: var(--radius-base);
+  font-size: var(--font-size-base);
+  background: var(--color-form-base);
+  color: var(--color-text-primary);
+  transition: var(--transition-base);
+  outline: 2px solid var(--color-form-outline);
+}
+.form .input:focus {
+  outline: 2px solid var(--color-form-outline-focus);
+  background: var(--color-form-focus);
+}
+.form .input::-moz-placeholder {
+  color: var(--color-form-placeholder);
+}
+.form .input::placeholder {
+  color: var(--color-form-placeholder);
+}
+.form .addBtn {
+  padding: var(--spacing-sm) var(--spacing-sm);
+  border: none;
+  white-space: nowrap;
+  font-size: var(--font-size-base);
+  border-radius: var(--radius-base);
+  background: var(--color-button-add);
+  color: var(--color-text-button);
+  cursor: pointer;
+  transition: var(--transition-base);
+  box-shadow: var(--shadow-button);
+}
+.form .addBtn:hover {
+  background: var(--color-button-add-hover);
+}/*# sourceMappingURL=TodoForm.module.css.map */

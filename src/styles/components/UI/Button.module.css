@@ -1,0 +1,15 @@
+.primary {
+  background: var(--color-button-add);
+  color: var(--color-text-button);
+}
+.primary:hover {
+  background: var(--color-button-add-hover);
+}
+
+.secondary {
+  background: var(--color-button-delete);
+  color: var(--color-text-button);
+}
+.secondary:hover {
+  background: var(--color-button-delete-hover);
+}/*# sourceMappingURL=Button.module.css.map */
